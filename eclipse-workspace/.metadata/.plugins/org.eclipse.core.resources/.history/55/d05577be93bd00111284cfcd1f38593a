@@ -1,0 +1,19 @@
+package tarea1;
+
+public class vuelto {
+	public static void main(String[] args) {
+		double X = 82.45, Y = 100;          // Entendiendo X como el precio a pagar e Y el dinero en efectivo entregado
+		
+		System.out.printf("Si tengo que pagar 82.45EUR y entrego 100EUR en efectivo, mi cambio es => %s%n", Y - X);
+		
+		double Z = 17.55; //Entendiendo Z como el cambio
+		double billetes = 10;
+		System.out.printf("En el cambio caben %sEUR billetes de 10%n", Z / billetes);
+		
+		double centimos = 100;
+		System.out.printf("El cambio en céntimos es = ", Z * centimos);
+		
+		
+		
+	}
+}

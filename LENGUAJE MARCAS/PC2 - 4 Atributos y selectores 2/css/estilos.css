@@ -1,0 +1,81 @@
+body{ /*SELECTOR DE ELEMENTO*/
+    background-color: beige;
+    margin:0;padding: 0;
+}
+header{
+    background: cyan;
+    padding: 10%;
+    margin: auto;
+    border:10px solid royalblue; 
+    width: 90%; 
+    box-sizing: border-box;
+}
+/*SELECTOR DE CLASES*/
+.fire{
+    border: 4px dashed orangered;
+    
+}
+.grass{
+    border: 4px dashed darkolivegreen;
+}
+.water{
+     border: 4px dashed lightseagreen;
+}
+.electric{
+    border: 4px dashed gold;
+}
+
+#pikachu{ /*SELECTOR DE ID*/
+border-style: solid;
+}
+
+main strong {
+    background-color: lightgreen;
+}
+
+main span {
+    border-bottom: 2px solid black;
+}
+#contenedor strong {
+    background-color: yellow;
+}
+#fire {
+    display: flex;
+}
+section#fire figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+section#fire figure img{
+    width: 100%;
+}
+#grass {
+    display: flex;
+}
+section#grass figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+section#grass figure img{
+    width: 100%;
+}
+#water {
+    display: flex;
+}
+section#water figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+section#water figure img{
+    width: 100%;
+}
+#electric {
+    display: flex;
+}
+section#electric figure{
+    margin: 0;
+    box-sizing: border-box;
+}
+section#electric figure img{
+    width: 100%;
+}

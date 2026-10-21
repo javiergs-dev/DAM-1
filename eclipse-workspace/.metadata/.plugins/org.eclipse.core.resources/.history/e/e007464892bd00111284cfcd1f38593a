@@ -1,0 +1,18 @@
+package tarea1;
+
+public class vuelto {
+	public static void main(String[] args) {
+		double X = 82.45, Y = 100;          // Entendiendo X como el precio a pagar e Y el dinero en efectivo entregado
+		
+		System.out.printf("Cambio = %s%n", Y - X);
+		
+		double Z = 17.55; //Entendiendo Z como el cambio
+		double billetes = 10;
+		System.out.printf("En el cambio caben %s%n billetes de 10", Z / billetes);
+		
+		
+		
+		
+		
+	}
+}

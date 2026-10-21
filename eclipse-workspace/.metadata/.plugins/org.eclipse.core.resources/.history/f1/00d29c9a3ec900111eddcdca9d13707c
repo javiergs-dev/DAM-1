@@ -1,0 +1,15 @@
+package arrays;
+
+public class Ejercicio4 {
+	public static void main(String[]args) {
+		double total = 0.00;
+		double[]notas = {6.5, 8.0, 4.5, 9.0, 7.0};
+		for(double nota : notas) {
+			total += nota;
+		}
+		double media = total / notas.length;
+	}
+	
+System.out.print("");
+	
+	}

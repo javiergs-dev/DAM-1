@@ -1,0 +1,15 @@
+package tarea1;
+
+public class vuelto {
+	public static void main(String[] args) {
+		double X = 82.45, Y = 100;          // Entendiendo X como el precio a pagar e Y el dinero en efectivo entregado
+		
+		System.out.printf("Si tengo que pagar 82.45EUR y entrego 100EUR en efectivo, mi cambio es => %s%n", Math.abs(Y - X));
+		
+		int Z = (int) Math.round ((Y - X) * 100); //Entendiendo Z como el cambio
+	
+		
+		
+		
+	}
+}

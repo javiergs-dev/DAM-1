@@ -1,0 +1,13 @@
+{
+  "alumnos": [
+    {
+      "nombre": "Juan",
+      "apellidos": "Piñero Gonzalez",
+      "edad": 27
+    },
+    {
+      "nombre": "Luis",
+      "apellidos": "Galocha Ruiz"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+package arrays;
+
+public class Ejercicio3 {
+	public static void main(String []args) {
+		int[]array = {4,7,10,3,8,6,};
+		int contador = 0;
+		for(int i = 0; i < array.length ; i++) {
+			if(array[i] % 2 == 0)
+			contador++;
+			
+		}
+		System.out.println("Hay " + contador + " números pares." );
+	}
+}

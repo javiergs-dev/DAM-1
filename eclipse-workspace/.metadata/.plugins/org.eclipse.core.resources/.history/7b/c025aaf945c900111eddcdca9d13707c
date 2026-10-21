@@ -1,0 +1,21 @@
+package arrays;
+
+public class Ejercicio6 {
+	public static void main(String[]args) {
+		
+		int []numeros = {901,801,701,601,501,401,301,201,101,1};
+		for (int i = 0; i < 1 ; i++) {
+			for (int cadena : numeros) {
+				System.out.print(cadena + "-");
+			if(i <= 10) {
+				System.out.print(cadena);
+			}
+			}
+		}
+		
+		
+		
+		
+		
+	}
+}

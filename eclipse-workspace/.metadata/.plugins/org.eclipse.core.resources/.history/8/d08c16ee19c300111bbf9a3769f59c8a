@@ -1,0 +1,23 @@
+package bucles;
+
+public class Ejercicio10 {
+	public void main (String []args) {
+		//Muestra las primeras 10 potencias de 2 (2¹, 2², 2³... hasta 2¹⁰)
+		
+		int peticion = 2;
+		int inicio = 1;
+		int fin = 10;
+		int elevado = 0;
+		
+		for(int i = inicio; i<=fin ;i++) {
+			elevado *= elevado;
+			
+			System.out.printf("%d^%d =    %4d%n",inicio,elevado);
+		}
+		
+		
+		
+		
+		
+	}
+}

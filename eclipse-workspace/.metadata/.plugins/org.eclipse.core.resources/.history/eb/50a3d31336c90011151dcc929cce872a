@@ -1,0 +1,16 @@
+package arrays;
+
+public class Ejercicio1 {
+	public static void main (String [] args) {
+	
+	int[]nums = {3,8,5,1,};
+	
+	for(int i = 0; i<=0 ;i++) {
+		
+		
+	}
+	System.out.println("Posición 0: " + nums[0]);
+	
+	
+	}
+}

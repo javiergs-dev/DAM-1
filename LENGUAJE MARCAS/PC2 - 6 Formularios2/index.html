@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios II - Tipos de formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Elementos de un formulario web</h1>
+        <p>HTML ofrece diferentes controles<p>
+    </header>
+    <main>
+
+        <section>
+            <h2>Campo de texto</h2>
+            <def>Permite escribir una línea de texto</def>
+            <code> &lt;input type="text"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Color:
+                <input type="text" name="color" placeholder="¿Cuál es tu color preferido?">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Contraseña</h2>
+            <def>Texto oculto por seguridad</def>
+            <code> &lt;input type="password"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Contraseña:
+                <input type="password" name="clave" placeholder="Contraseña">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Correo Electrónico</h2>
+            <def>Para direcciones email</def>
+            <code> &lt;input type="email"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Correo electrónico:
+                <input type="correo" name="correo" placeholder="ejemplo@gmail.com">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Número</h2>
+            <def>Permite introducir números</def>
+            <code> &lt;input type="number"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Número:
+                <input type="number" name="number" placeholder="Número">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Teléfono</h2>
+            <def>Para números de teléfono</def>
+            <code> &lt;input type="tel"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Teléfono:
+                <input type="tel" name="telefono" placeholder="644365051">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>URL</h2>
+            <def>Para direcciones web</def>
+            <code> &lt;input type="url"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Sitio web:
+                <input type="text" name="url" placeholder="https://ejemplo.com">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Búsqueda</h2>
+            <def>Campo de búsqueda</def>
+            <code> &lt;input type="search"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Buscar:
+                <input type="text" name="busqueda" placeholder="Escribe aquí...">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Fecha</h2>
+            <def>Fecha</def>
+            <code> &lt;input type="date"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Buscar:
+                <input type="date" id="fecha" name="fecha" placeholder="Escribe aquí...">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Color</h2>
+            <def>Elige un color</def>
+            <code> &lt;input type="date"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Color:
+                <input type="color" id="fecha" name="color">
+                <input type="submit" value="Enviar">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Rango</h2>
+            <def>Permite introducir un valor dentro de un rango</def>
+            <code> &lt;input type="date"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+            
+                <label>Tamaño:
+                <input type="range" min="0" max="100" step="10" id="tamanio" name="tamanio">
+                <input type="submit" value="Enviar">
+                </label>
+                
+                <button>Probar</button>      
+            </form>
+        </section>
+        <section>
+            <h2>Radio</h2>
+            <def>Permite introducir un valor dentro de un rango</def>
+            <code> &lt;input type="radio"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label>¿En qué año fue conronado Napoleón Bonaparte?</label>
+                <label>1805
+                    <input type="radio" name="anio" value="1805" checked="">
+                </label>
+                <label>1804
+                <input type="radio" name="anio" value="1805">
+                </label>
+                <label>2005
+                <input type="radio" name="anio" value="1805">
+                </label>
+                <input type="submit" value="Enviar">
+                   
+            </form>
+        </section>
+        <section>
+            <h2>Lista despegable</h2>
+            <def>Permite seleccionar una opción en una lista</def>
+            <code> &lt;select&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label>Elige tu provincia</label>
+                <select>
+                    <option value="almeria">Almería</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="granada">Granada</option>
+                    <option value="huelva">Huelva</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="sevilla">Sevilla</option>
+                </select>
+                </label>
+                <input type="submit" value="Enviar">
+                    
+            </form>
+        </section>
+        
+        <section>
+            <h2>Área de texto</h2>
+            <def>Permite incluir texto en varias líneas</def>
+            <code> &lt;textarea&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label>Comentarios
+                <textarea name="comentario" cols="40" rows="7">"Odio la coliflor"</textarea>
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+                  
+        <section>
+            <h2>Lista de datos</h2>
+            <def>Permite sugerencias</def>
+            <code> &lt;input list=""&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label>Provincias
+                <input list="provincias" name="provincias">
+                <datalist id="provincias">
+                    <option value="almeria">Almería</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="granada">Granada</option>
+                    <option value="huelva">Huelva</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="sevilla">Sevilla</option>
+                </datalist>
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Subida de archivos</h2>
+            <def>Seleccionar</def>
+            <code> &lt;input type="file"&gt; </code>
+            <form method="get" action="https://www.espacio199.com/clases/recibe.php">
+                <label>Subida de archivos
+                <input name="provincias" type="file">
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+                  
+
+    </main>
+</body>
+</html>
+
+
+

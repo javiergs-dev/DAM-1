@@ -1,0 +1,40 @@
+package arrays;
+
+public class Ejemplo1 {
+	public static void main (String[]args) {
+		
+		int[]numeros = {3, 2, 7, 9};
+		System.out.println("Tamaño: " + numeros.length);
+		System.out.println("Primer elemento: " + numeros[0]);
+		System.out.println("Segundo elemento: " + numeros[1]);
+		System.out.println("Último elemento: " + numeros[numeros.length-1]); //hace esto para acceder al último elemento porque si se modifica el array va a darte el 2º)		
+		// Cambia el valor a 7 de la posición primera (0)
+		numeros[0]=7;
+		System.out.println("Primer elemento cambiando el valor: " + numeros[0]);
+		// Duplica el valor de la posición primera (0)
+		numeros[0] = numeros[0] * 2;
+		System.out.println("Primer elemento multiplicado por 2: " + numeros[0]);
+		
+		//Crear array de enteros con números del 1 al 4
+		int[]enteros = {1,2,3,4};
+		 
+		//Duplicar cada elemento del array
+		enteros [0] = enteros [0] * 2;
+		enteros [1] = enteros [1] * 2;
+		enteros [2] = enteros [2] * 2;
+		enteros [3] = enteros [3] * 2;
+		
+		for(int i = 0; i <= 3;  i++) {
+			enteros [i] = enteros[i] * 2; 
+			System.out.print(enteros [i] + " ");
+		}
+		
+		//Mostrar cada elemento del array
+		
+		for (int i = 0; i < enteros.length ;++i) {
+			System.out.print(enteros [i] + " ");
+		}
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package tarea1;
+
+public class vuelto {
+	public static void main(String[] args) {
+		double precio = 82.45, pago = 100;        
+		
+		System.out.printf("Si tengo que pagar 82.45EUR y entrego 100EUR en efectivo, mi cambio es => %s%n", (int) (pago - precio));
+		 
+		System.out.printf("El cambio en céntimos es => %s%n", (pago - precio) * 100 );
+		
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/autoincrementodecremento/src/logicas/EjerciciosBoolean1.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.core.terminate.timestamp" value="1790326239466"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="logicas.EjerciciosBoolean1"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="autoincrementodecremento"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="autoincrementodecremento"/>
+</launchConfiguration>

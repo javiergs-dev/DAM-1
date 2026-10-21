@@ -1,0 +1,24 @@
+package bucles;
+
+public class Ejercicio8 {
+	public void main (String [] args) {
+		//Calcula la suma de todos los múltiplos de 5 entre 1 y 100. Muestra el resultado en el siguiente formato:
+		
+		int suma = 0;
+		int peticion = 5;
+		int inicio = 1;
+		int fin = 100;
+		
+		for(int i = inicio; i <= fin; i++) {
+			if (i % peticion == 0){
+				suma += i;
+			}
+		}
+			
+		
+		System.out.printf("La suma de todos los múltiplos de %d entre %d y %d es %d%n", peticion, inicio, fin, peticion);
+		
+		
+		
+	}
+}

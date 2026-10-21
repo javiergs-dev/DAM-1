@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones [
+    <!ELEMENT canciones (cancion+)> 
+<!-- si añades el signo "+" indicas que vas a añadir más de 1 elemento-->
+    <!ELEMENT cancion (titulo, interprete, pais, anio, estilo)>
+    <!ELEMENT titulo(#PCDATA)>
+    <!ELEMENT interprete (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT estilo (#PCDATA)>
+]>
+<canciones>
+   
+    <cancion>
+        <titulo> Si antes te hubiera conocido </titulo>
+        <interprete>Karol G</interprete>
+        <pais>Colombia</pais>
+        <anio>2024</anio>
+        <estilo>Pop</estilo>
+    </cancion>
+    <cancion>
+        <titulo> Me has invitado a bailar </titulo>
+        <interprete>Dani Fernández</interprete>
+        <pais>España</pais>
+        <anio>2025</anio>
+        <estilo>Pop</estilo>
+    </cancion>
+    <cancion>
+        <titulo> Lágrimas desordenadas </titulo>
+        <interprete>Melendi</interprete>
+        <pais>España</pais>
+        <anio>2012</anio>
+        <estilo>Pop</estilo>
+    <cancion>
+        <titulo> Flores muestias </titulo>
+        <interprete>Walls</interprete>
+        <pais>España</pais>
+        <anio>2026</anio>
+        <estilo>Rock</estilo>
+    </cancion>
+
+
+</canciones>    

@@ -1,0 +1,20 @@
+package bucles;
+
+public class Ejercicio11 {
+ public static void main(String  [] args) {
+	 //Muestra todos los números pares desde 51 hasta 29 en orden descendente, en la misma línea separados por guiones.
+	 
+	 int inicio = 51;
+	 int fin = 29;
+	 int pares = 0;
+	 
+	 for (int i=inicio; i >= 29;--i); {
+		 if (inicio % 2 == 0) {
+			 System.out.printf("%d-",inicio);
+		 }
+		 
+	 }
+	 
+	 
+ }
+}

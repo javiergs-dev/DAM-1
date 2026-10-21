@@ -1,0 +1,125 @@
+package ejerciciosrepaso;
+
+public class Ejercicio1 {
+	public static void main (String[]args) {
+		// 1) Escribe un programa que muestre los números del 1 al 10 en orden ascendente, 
+		// en la misma línea y separados por un espacio. 
+		
+		int inicio = 1;
+		for(int i = inicio; i <= 10; i++) {
+			System.out.print(i + " ");
+		}
+	System.out.println();
+	
+	// 2) Escribe un programa que muestre los números del 10 al 1,
+	// en orden descendente, en la misma línea y separados por un espacio.
+	
+	int inicio2 = 10;
+	for(int x = inicio2; x >= 1 ; x--) {
+		System.out.print(x + " ");
+	}
+	System.out.println();
+	
+	// 3) Escribe un programa que muestre 5 veces el número 100 en la misma línea, separado por espacios.
+	
+	int numero = 100;
+	for (int y = 1; y <= 5 ; y++ ) {
+		
+		System.out.print(numero + " ");
+	}
+	System.out.println();
+	
+	// 4) Haz una cuenta atrás desde 100 hasta 70, de 3 en 3 (100, 97, 94…), con cada número en una línea distinta.
+	
+	for (int z = 100; z>=70 ; z--) {
+		System.out.println(z);
+		
+	}
+	
+	// 5) Muestra la tabla de multiplicar del 7, del 7 x 1 al 7 x 10.
+	int multiplo = 1; 
+	for(int a = 1; a <= 10 ; a++) {
+		System.out.printf("7 x %d = %d%n", multiplo++, a * 7 );
+	}
+	
+	// 6) **Entrenamiento 6 · Calcula la suma de los números del 1 al 20.**
+	int suma = 0;
+	for(int b = 1; b <= 20 ; b++) {
+		suma += b;
+	}
+	System.out.println("La suma del 1 al 20 es " +  suma);
+	
+	// 7) Con un solo bucle, recorre los números del 1 al 1000 saltando de 100 en 100 (1, 101, 201…).
+	// Cuenta cuántos números hay, súmalos
+	int suma2 = 0;
+	for (int c = 1; c <= 1000; c  += 100) {
+	suma2 += c;
+	}
+	System.out.print( "Hay 10 números y suman " + suma2);
+	System.out.println();
+	
+	// 8) Calcula la suma de todos los múltiplos de 5 que hay entre 1 y 100
+	int suma3 = 0;
+	for (int d = 1; d <= 100; d++) {
+		if (d % 5 == 0) {
+			suma3 += d;
+		}
+	}
+			
+	System.out.println("La suma de los múltiplos de 5 entre 1 y 100 es " + suma3);
+	
+	// 9) Cuenta cuántos números entre 1 y 200 son múltiplos de 7
+	int contador = 0;
+	for (int e = 1; e <= 200; e++) {
+		if (e % 7 == 0) {
+		++contador;	
+		}
+	}
+	System.out.printf("Entre 1 y 200 hay %d múltiplos de 7.%n", contador);
+	
+	// 10) Empieza con el número 1 y dóblalo una y otra vez (1, 2, 4, 8…) hasta que pase de 1000.
+	int contador2 = 0;
+	int doble = 1;
+	
+	while (doble <= 1000) {
+		doble *= 2;
+		++contador2;
+	}
+	System.out.println("Hay que doblarlo " + contador2 + " veces: llega a " + doble + "." );
+	
+	// 11) Muestra las 10 primeras potencias de 2, una por línea.
+	int potencia = 1;
+	for (int f = 1; f<= 10; f++) {
+	potencia *= 2;
+	
+	System.out.printf("2^%d = %4d%n", f, potencia);
+		
+	}
+	
+	// 12) Muestra los números pares que hay entre 29 y 51, de mayor a menor,
+	// en la misma línea y separados por guiones, sin guion detrás del último
+	
+	for (int g = 50; g >= 30; g--) {
+		System.out.println(g);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}
+
